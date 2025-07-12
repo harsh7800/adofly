@@ -31,12 +31,12 @@ const data = {
     },
     {
       title: "Ads",
-      url: "#",
+      url: "/ads",
       icon: Bot,
     },
     {
       title: "Campaigns",
-      url: "#",
+      url: "/campaigns",
       icon: BookOpen,
     },
   ],

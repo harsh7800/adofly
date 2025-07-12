@@ -15,6 +15,12 @@ export const auth = betterAuth({
       responseMode: "form_post",
       clientId: process.env.GOOGLE_CLIENT_ID as string,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+      scopes: [
+        "openid",
+        "email",
+        "profile",
+        "https://www.googleapis.com/auth/adwords",
+      ],
     },
     facebook: {
       prompt: "consent",
